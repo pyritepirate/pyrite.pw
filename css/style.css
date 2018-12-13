@@ -788,6 +788,7 @@ h6 {
 
 #banner h1 {
     padding-top: 5%;
+    word-wrap: break-word;
 }
 
 #banner .section-heading:before {
@@ -2151,6 +2152,9 @@ blockquote {
         padding-top: 85px !important;
     }
 
+    #banner-content .section-heading h1 {
+      word-wrap: break-word;
+    }
     /*-----------------Sections-----------------*/
 
     /* Call to Action*/
