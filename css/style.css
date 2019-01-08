@@ -565,11 +565,12 @@ section {
 }
 
 #nav-trigger span:after {
-    font-family: "fontAwesome";
+    font-family: 'Font Awesome\ 5 Free';
     display: inline-block;
     width: 38px;
     height: 71px;
     line-height: 75px;
+    font-weight: 900;
     text-align: center;
     content: "\f0c9";
     border-top-right-radius: 5px;
@@ -1526,7 +1527,7 @@ blockquote {
     padding: 0 5px 20px 5px;
     text-align: center;
     text-decoration: none;
-    color: #fff;
+    color: #ccc;
     -webkit-transition: margin-bottom 150ms linear;
     -moz-transition: margin-bottom 150ms linear;
     -o-transition: margin-bottom 150ms linear;
@@ -1538,13 +1539,12 @@ blockquote {
 }
 
 #scrollUp:before {
-    background: #ccc;
-    font-family: "fontawesome";
+    font-family: 'Font Awesome\ 5 Free';
     font-size: 2.4em;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 900;
     text-align: center;
-    color: #fff;
+    color: #ccc;
     width: 45px;
     height: 45px;
     display: inline-block;
